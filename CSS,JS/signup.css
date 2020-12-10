@@ -1,0 +1,54 @@
+.background {
+	width: 38%;
+	height: auto;
+}
+
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+.content {
+	margin-top: -520px;
+	margin-left: 500px;
+	text-align: center;
+}
+
+.textLogin {
+	font-size: 3.5em;
+	font-family: Forte;
+}
+
+input{
+	background-color: rgba(235, 235, 235, 0.6);
+	border:none;
+	outline: none;
+	border-radius: 20px;
+	width: 400px;
+	height: 40px;
+	font-family: Open Sans;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.Forget {
+	font-family: Open Sans;
+	font-size: 1.2em;
+	color: black;
+}
+
+button {
+	width: 400px;
+	height: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 20px;
+	font-family: Open Sans;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	background-color: lightgray;
+}

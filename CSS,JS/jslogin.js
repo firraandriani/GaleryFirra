@@ -1,15 +1,31 @@
  function validateForm() {
-    if (document.forms["form"]["username"].value == "") {
+    var username = document.getElementById('username');  
+    var password = document.getElementById('password');
+
+    if (!username.value) {
         alert("Username tidak boleh kosong");
-        document.forms["form"]["username"].focus();
-        return false;
+        username.focus();
     }
-    if (document.forms["form"]["password"].value == "") {
+    else if (!password.value) {
         alert("Password tidak boleh kosong");
-        document.forms["form"]["password"].focus();
-        return false;
+        password.focus();
     }
     else {
-    	alert("Selamat Datang");
+        alert("Selamat Datang");
+        window.location.href = "HTML/beranda.html";
     }
+    // if (document.forms["form"]["username"].value == "") {
+    //     alert("Username tidak boleh kosong");
+    //     document.forms["form"]["username"].focus();
+    //     return false;
+    // }
+    // if (document.forms["form"]["password"].value == "") {
+    //     alert("Password tidak boleh kosong");
+    //     document.forms["form"]["password"].focus();
+    //     return false;
+    // }
+    // else {
+    // 	alert("Selamat Datang");
+    //     window.location.href = "../HTML/beranda.html";
+    // }
 }

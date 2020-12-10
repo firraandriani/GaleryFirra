@@ -9,23 +9,21 @@
 	<div><img src="IMG/Login.jpeg"class="background"></div>
     <div class="boxLogin">
         <div class="content">
-            <form name="form" action="HTML/beranda.html" method="post" onsubmit="return validateForm()">
             	<b class="textLogin">Login Now</b>
             	<br><br>
             	<div class="form-group">
-            		<input type="text" name="username" placeholder="Username" class="form-control">
+            		<input type="text" name="username" placeholder="Username" class="form-control" id="username">
             	</div>
             	<br>
             	<div class="form-group">
-            		<input type="password" name="password" placeholder="Password" class="form-control">
+            		<input type="password" name="password" placeholder="Password" class="form-control" id="password">
             	</div>
             	<br>
             	<p><a href="#" class="Forget" style="font-weight: bold;">Forget password?</a></p>
             	<br>
-                <a href="HTML/beranda.html"><button type="submit" class="btn btn-primary">Login</button></a>
+                <button onclick="validateForm()">Login</button>
             	<br><br>
-            	<p class="Forget" style="font-size: 1em;">Don't have an account yet? <span><a href="Signup.html" class="Forget" style="font-size: 1em;">Sign up now?</a></p>
-        	</form>
+            	<p class="Forget" style="font-size: 1em;">Don't have an account yet? <span><a href="signup.html" class="Forget" style="font-size: 1em;">Sign up now?</a></p>
         </div>
     </div>
 </body> 
