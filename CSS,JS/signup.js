@@ -22,7 +22,7 @@
         pass1.focus();
     }
     else if (!pass2.value) {
-        alert("Password tidak boleh kosong");
+        alert("Confrim Password tidak boleh kosong");
         pass2.focus();
     }
     else {
