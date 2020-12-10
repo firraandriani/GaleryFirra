@@ -2,30 +2,40 @@
 <html>
 <head>
     <title>Selamat datang di GalFir!!!</title>
-    <link href="CSS,JS/login.css" rel="stylesheet" type="text/css">
-    <script src="CSS,JS/jslogin.js"></script>
+    <link href="../CSS,JS/signup.css" rel="stylesheet" type="text/css">
+    <script src="../CSS,JS/signup.js"></script>
 </head>
 <body>
-    <div><img src="IMG/Login.jpeg"class="background"></div>
+    <div><img src="../IMG/Login.jpeg"class="background"></div>
     <div class="boxLogin">
         <div class="content">
-            <form name="form" action="HTML/beranda.html" method="post" onsubmit="return validateForm()">
-                <b class="textLogin">Login Now</b>
+                <b class="textLogin">Sign Up</b>
                 <br><br>
-                <div class="form-group">
-                    <input type="text" name="username" placeholder="Username" class="form-control">
+                <div>
+                    <input type="text" placeholder="Nama Lengkap" id="nama">
                 </div>
                 <br>
-                <div class="form-group">
-                    <input type="password" name="password" placeholder="Password" class="form-control">
+                <div>
+                    <input type="text" placeholder="Gmail" id="gmail">
                 </div>
                 <br>
-                <p><a href="#" class="Forget" style="font-weight: bold;">Forget password?</a></p>
+                <div>
+                    <input type="text" placeholder="Username" id="username">
+                </div>
                 <br>
-                <a href="HTML/beranda.html"><button type="submit" class="btn btn-primary">Login</button></a>
+                <div>
+                    <input type="password" placeholder="Password" id="pass1">
+                </div>
+                <br>
+                <div>
+                    <input type="password" placeholder="Confrim Password" id="pass2">
+                </div>
+                <br>
+                <br>
+                <span><button onclick="buttonCancel()" style="width: 198px;">Cancel</button></span>
+                <span><button onclick="validateForm()" style="width: 198px;">Confrim</button></span>
                 <br><br>
-                <p class="Forget" style="font-size: 1em;">Don't have an account yet? <span><a href="Signup.html" class="Forget" style="font-size: 1em;">Sign up now?</a></p>
-            </form>
+                <p class="Forget" style="font-size: 1em;">Do have an account yet? <span><a href="../index.html" class="Forget" style="font-size: 1em;">Login now?</a></p>
         </div>
     </div>
 </body> 

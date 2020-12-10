@@ -1,8 +1,7 @@
 function popupToggle(){
-            var popup = document.querySelector('.popup');
-            popup.classList.toggle('active')
-        }
-        
+	var popup = document.querySelector('.popup');
+	popup.classList.toggle('active')
+}
 const thumbnail = document.querySelectorAll('.thumbnail');
 var jumbo = document.querySelector(".jumbo");
 
@@ -13,6 +12,6 @@ thumbnail.forEach(function(e){
 });
 
 function popupToggle(){
-            var popup = document.querySelector('.popup');
-            popup.classList.toggle('active')
-        }
+	var popup = document.querySelector('.popup');
+	popup.classList.toggle('active')
+}
